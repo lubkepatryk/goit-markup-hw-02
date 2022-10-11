@@ -12,6 +12,9 @@ body {
 
 .disappear {
   opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  visibility: hidden;
 }
 
 .button {
@@ -24,6 +27,7 @@ body {
   text-align: center;
   height: 38px;
   width: 121px;
+  font-family: inherit;
 }
 
 .button:hover,
@@ -91,26 +95,22 @@ body {
 }
 
 .heading {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 
 .filtr {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-font-color);
 }
 
 .heading2 {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 
 .paragraph {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -122,14 +122,13 @@ body {
 .main-header {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
 
 .second-header {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -151,7 +150,6 @@ body {
 }
 
 .role {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
